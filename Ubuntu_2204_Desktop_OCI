@@ -21,7 +21,7 @@ systemctl status xrdp
 systemtl enable --now xrdp
 
 # Open port 3389 for your public IP on Public Security List
-No	136.158.58.12/32 (your Public IP)	TCP	All	3389		TCP traffic for ports: 338
+No	136.158.58.12/32 (your Public IP)	TCP	All	3389		TCP traffic for ports: 3389
 
 # Allow port 3380 on Ubuntu Machine as well
 vim /etc/iptables/rules.v4
