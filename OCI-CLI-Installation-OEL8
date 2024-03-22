@@ -1,0 +1,8 @@
+
+# Install Required Dependencies:
+sudo dnf install python3
+sudo dnf install python3-pip
+
+# Install OCI CLI via pip
+sudo pip3 install oci-cli
+
